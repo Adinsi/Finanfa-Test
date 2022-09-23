@@ -1,0 +1,481 @@
+@import '../../../seetings';
+
+
+@media screen and (min-width:320px) and (max-width:899px) {
+    nav {
+        @include flexStart;
+        justify-content: flex-start;
+        width: 100vw;
+        height: 80px;
+        background-color: $color1;
+        position: fixed;
+        z-index: 3;
+        border-bottom: 1px solid $color5;
+
+        .container {
+            @include flex;
+
+            width: 100%;
+            height: 100%;
+            justify-content: space-around;
+
+            .logo {
+                transition: 1s all esae;
+
+
+            }
+
+            .links {
+
+                @include flex;
+
+
+                .menu {
+                    @include flexStart;
+                    flex-direction: column;
+                    position: absolute;
+                    width: 100%;
+                    top: 80px;
+                    left: 0;
+                    margin-left: 45px;
+                    transform: translateY(-200%);
+                    transition: 1s ease;
+                    background-color: $color5;
+
+
+                    li {
+                        padding: 15px;
+
+                        a {
+                            color: $color2;
+                            text-decoration: none;
+                            font-family: 'Montserrat';
+                            font-style: normal;
+                            font-size: 17px;
+                            line-height: 25px;
+                            font-weight: 600px;
+                            transition: all 2s ease;
+
+
+                            &:hover {
+                                border-bottom: 1px solid $color3;
+                            }
+
+                        }
+                    }
+
+                    .comment {
+                        i {
+                            cursor: pointer;
+                            margin-left: 10px;
+                            transition: all .8s cubic-bezier(0.165, 0.84, 0.44, 1)
+                        }
+
+                        div {
+                            @include flexStart;
+                            flex-direction: column;
+
+                            -webkit-transform: translateX(2rem);
+                            -ms-transform: translateX(2rem);
+                            -o-transform: translateX(2rem);
+                            transform: translateX(2rem);
+
+                            li {
+                                padding: 7.5px;
+                                background-color: $color5;
+                                width: 100%;
+                                margin-top: 5px;
+
+
+                            }
+                        }
+
+                    }
+
+                    .butt {
+
+                        button {
+                            background-color: $color4;
+                            border: none;
+                            padding: 7px;
+                          
+
+                            a {
+                                color: $color1;
+                                &:hover {
+                                    border-bottom: none;
+                                }
+                            }
+                        }
+
+                    }
+
+                }
+
+                .menu.sticks {
+                    transform: translateY(0);
+
+                }
+            }
+
+            .fr {
+                @include flex;
+                flex-direction: column;
+                position: fixed;
+
+                li {
+                    .langue {
+                        @include flex;
+                        flex-direction: column;
+                        position: absolute;
+                        a{
+                          padding: 5px;
+                        color: $color2;
+                            text-decoration: none;
+                            font-family: 'Montserrat';
+                            font-style: normal;
+                            font-size: 17px;
+                            line-height: 25px;
+                            font-weight: 600px;
+                            transition: all 2s ease;
+
+                        }
+
+                    }
+                    i{
+                        margin-left: 10px;
+                    }
+                }
+
+
+            }
+
+            .MenuBurger {
+                cursor: pointer;
+                font-size: 2rem;
+            }
+        }
+
+
+    }
+}
+
+@media screen and (min-width:900px) and (max-width:1280px) {
+    nav {
+            @include flex;
+            justify-content: space-around;
+            width: 100vw;
+            height: 80px;
+            background-color: $color1;
+            position: fixed;
+            z-index: 3;
+            border-bottom: 1px solid $color5;
+            overflow: visible;
+    
+            .container {
+                @include flex;
+    
+                width: 100%;
+                height: 100%;
+                justify-content: space-around;
+    
+                .logo {
+                    transition: 1s all esae;
+    
+    
+                }
+    
+                .links {
+    
+                    @include flex;
+    
+    
+                    .menu {
+                        @include flex;
+                        flex-direction: row;
+                      justify-content: space-around;
+                        width: 100%;
+                      
+                     
+                        transition: 1s ease;
+                       
+    
+    
+                        li {
+                            padding: 15px;
+    
+                            a {
+                                color: $color2;
+                                text-decoration: none;
+                                font-family: 'Montserrat';
+                                font-style: normal;
+                                font-size: 17px;
+                                line-height: 25px;
+                                font-weight: 600px;
+                                transition: all 2s ease;
+    
+    
+                                &:hover {
+                                    border-bottom: 1px solid $color3;
+                                }
+    
+                            }
+                        }
+    
+                        .comment {
+                            i {
+                                cursor: pointer;
+                                margin-left: 10px;
+                                transition: all .8s cubic-bezier(0.165, 0.84, 0.44, 1)
+                            }
+    
+                            div {
+                              
+    position: absolute;
+    top: 80px;
+    width: 220px;
+                              
+    
+                                li {
+                                    padding: 7.5px;
+                                    background-color: $color5;
+                                    width: 100%;
+                                    margin-top: 5px;
+    
+    
+                                }
+                            }
+    
+                        }
+    
+                        .butt {
+    
+                            button {
+                                background-color: $color4;
+                                border: none;
+                                padding: 7px;
+    
+                                a {
+                                   color: $color1;
+                                    &:hover {
+                                        border-bottom: none;
+                                    }
+                                }
+                            }
+    
+                        }
+    
+                    }
+    
+                    .menu.sticks {
+                        transform: translateY(0);
+    
+                    }
+                }
+    
+                .fr {
+                    @include flex;
+                    flex-direction: column;
+                  
+    
+                    li {
+                        .langue {
+                            @include flex;
+                            flex-direction: column;
+                            position: absolute;
+                            top: 80px;
+                            right: 20px;
+    
+                            a {
+                                padding: 5px;
+                                color: $color2;
+                                text-decoration: none;
+                                font-family: 'Montserrat';
+                                font-style: normal;
+                                font-size: 17px;
+                                line-height: 25px;
+                                font-weight: 600px;
+                                transition: all 2s ease;
+    
+                            }
+    
+                        }
+    
+                        i {
+                            margin-left: 10px;
+                        }
+                    }
+    
+    
+                }
+    
+                .MenuBurger {
+                   
+                    display: none;
+                }
+            }
+    
+    
+        }
+}
+
+@media screen and (min-width:1281px) and (max-width:1600px) {
+    nav {
+            @include flex;
+            justify-content: space-around;
+            width: 100vw;
+            height: 80px;
+            background-color: $color1;
+            position: fixed;
+            z-index: 3;
+            border-bottom: 1px solid $color5;
+            overflow: visible;
+    
+            .container {
+                @include flex;
+    
+                width: 100%;
+                height: 100%;
+                justify-content: space-around;
+    
+                .logo {
+                    transition: 1s all esae;
+    
+    
+                }
+    
+                .links {
+    
+                    @include flex;
+    
+    
+                    .menu {
+                        @include flex;
+                        flex-direction: row;
+                        justify-content: space-around;
+                        width: 100%;
+    
+    
+                        transition: 1s ease;
+    
+    
+    
+                        li {
+                            padding: 15px;
+    
+                            a {
+                                color: $color2;
+                                text-decoration: none;
+                                font-family: 'Montserrat';
+                                font-style: normal;
+                                font-size: 17px;
+                                line-height: 25px;
+                                font-weight: 600px;
+                                transition: all 2s ease;
+    
+    
+                                &:hover {
+                                    border-bottom: 1px solid $color3;
+                                }
+    
+                            }
+                        }
+    
+                        .comment {
+                            i {
+                                cursor: pointer;
+                                margin-left: 10px;
+                                transition: all .8s cubic-bezier(0.165, 0.84, 0.44, 1)
+                            }
+    
+                            div {
+    
+                                position: absolute;
+                                top: 80px;
+                                width: 220px;
+    
+    
+                                li {
+                                    padding: 7.5px;
+                                    background-color: $color5;
+                                    width: 100%;
+                                    margin-top: 5px;
+    
+    
+                                }
+                            }
+    
+                        }
+    
+                        .butt {
+    
+                            button {
+                                background-color: $color4;
+                                border: none;
+                                padding: 7px;
+    
+                                a {
+                                    color: $color1;
+                                    &:hover {
+                                        border-bottom: none;
+                                    }
+                                }
+                            }
+    
+                        }
+    
+                    }
+    
+                    .menu.sticks {
+                        transform: translateY(0);
+    
+                    }
+                }
+    
+                .fr {
+                    @include flex;
+                    flex-direction: column;
+    
+    
+                    li {
+                        .langue {
+                            @include flex;
+                            flex-direction: column;
+                            position: absolute;
+                            top: 80px;
+                            right: 20px;
+    
+                            a {
+                                padding: 5px;
+                                color: $color2;
+                                text-decoration: none;
+                                font-family: 'Montserrat';
+                                font-style: normal;
+                                font-size: 17px;
+                                line-height: 25px;
+                                font-weight: 600px;
+                                transition: all 2s ease;
+    
+                            }
+    
+                        }
+    
+                        i {
+                            margin-left: 10px;
+                        }
+                    }
+    
+    
+                }
+    
+                .MenuBurger {
+    
+                    display: none;
+                }
+            }
+    
+    
+        }
+}
+
+@media screen and (min-width:1600px) and (max-width:2500px) {}

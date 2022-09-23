@@ -1,0 +1,58 @@
+            @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+            $color1: #fff;
+            $color2: #000;
+            $color3: #6D4FA1;
+            $color4: #680504;
+            $color5: #f5f5f5;
+            $color6: #F7F7F7;
+            $color7 : #ff0000;
+            $color8: #8E8E8E;
+            $color9:#FAFAFA;
+
+            $fontP :24px;
+            $fontS :20px;
+            $fontT :14px;
+            $fontF :13px;
+
+
+
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+           
+             
+
+            }
+
+            body {
+                background-color: $color5;
+                font-family: 'Montserrat',sans-serif;
+            }
+            html{
+                scroll-behavior: smooth;
+            }
+
+            ul {
+                margin: 0;
+                padding: 0;
+                list-style: none;
+            }
+
+            @mixin flex {
+                display: flex;
+                align-items: center;
+                align-content: center;
+            }
+
+            @mixin flexStart {
+                display: flex;
+                align-items: flex-start;
+                align-content: flex-start;
+            }
+
+            @mixin font {
+                font-family: 'Montserrat', sans-serif;
+                font-style: normal;
+            }

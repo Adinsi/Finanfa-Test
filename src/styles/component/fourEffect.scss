@@ -1,0 +1,849 @@
+@import '../../../seetings.scss';
+
+@media screen and(min-width:320px) and (max-width:768px) {
+    .fourEffect{
+       margin-top: 65px;
+       background-color: $color5;
+       img{
+        display: none;
+       }
+       .container{
+        h1{
+            font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 700;
+                font-size: $fontP;
+                line-height: 34px;
+                text-align: center;
+               color: $color3;
+        }
+        hr{
+width: 75px;
+    height: 2px;
+    display: block;
+    margin: auto;
+    background-color: $color2;
+        }
+        .element1{
+            @include flex;
+        flex-direction: column;
+width: 100%;
+            .imageContainer{
+                width: 100%;
+           
+            
+            }
+            .texteContainer{
+                background: url('../../../public/images/tontine.png');
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    background-position: center;
+                   height: 200px;
+                   margin-top: 45px;
+                   width: 100%;
+                  
+                 
+              .texteElem{
+
+            
+                  
+                   background: rgba($color: $color3, $alpha: .95);
+                   height: 100%;
+                   width: 100%;
+                  
+                
+                  
+              
+                
+                
+                
+                
+                    h2 {
+                        font-family: 'Montserrat';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: $fontS;
+                        line-height: 33px;
+                        color: $color1;
+                        text-align:center;
+                        padding-top: 15px;
+                    }
+                    hr{
+width: 75px;
+    height: 2px;
+    display: block;
+    margin: auto;
+    background-color: $color1;
+                    }
+                    p{
+                        padding: 15px;
+                        font-family: 'Montserrat';
+                            font-style: normal;
+                            font-weight: 500;
+                            font-size: $fontT;
+                            line-height: 22px;
+                            color: $color1;
+                            width: 100%;
+                    }
+                    button{
+                        background: #FFFFFF;
+                            border: 1px solid #66479B;
+                            border-radius: 7px;
+                            padding: 5px;
+                            margin: 5px 20px;
+                            height:40px;
+                        
+                            a {
+                                color: $color3;
+                                text-decoration: none;
+                                font-style: normal;
+                                font-weight: 500;
+                                font-size: $fontF;
+                                line-height: 18px;
+                            }
+                    }
+              }
+            }
+        }
+        .element2{
+            .texteContainer{
+                h2 {
+                        font-family: 'Montserrat';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: $fontS;
+                        line-height: 121.52%;
+                        color: $color3;
+                        text-align: center;
+                        padding-top: 15px;
+                        padding-bottom: 5px;
+                    }
+                
+                    hr {
+                        width: 75px;
+                        height: 2px;
+                        display: block;
+                        margin: auto;
+                        background-color: $color2;
+                    }
+                
+                    p {
+                        font-family: 'Montserrat';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: $fontT;
+                        line-height: 25px;
+                        padding: 15px;
+                
+                    }
+                
+                    button {
+                        background: #FFFFFF;
+                        border: 1px solid #66479B;
+                        border-radius: 7px;
+                        padding: 5px;
+                        margin: 5px 20px;
+                
+                        a {
+                            color: $color3;
+                            text-decoration: none;
+                            font-style: normal;
+                            font-weight: 500;
+                            font-size: $fontF;
+                            line-height: 18px;
+                        }
+                    }
+            }
+        }
+       }
+    }
+}
+@media screen and(min-width:769px) and (max-width:1200px) {
+    .fourEffect {
+button{
+    position: absolute;
+    bottom: 0;
+}
+        #element1{
+          
+            margin-top: 45px;
+        }
+            margin-top: 65px;
+            background-color: $color5;
+    
+    
+            .container {
+                h1 {
+                    font-family: 'Montserrat';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 20px;
+                    line-height: 34px;
+                    text-align: center;
+                    color: $color3;
+                }
+    
+                hr {
+                    width: 75px;
+                    height: 2px;
+                    display: block;
+                    margin: auto;
+                    background-color: $color2;
+                }
+    
+                .element1 {
+                    position: relative;
+                    @include flex;
+                    justify-content: center;
+                    width: 100%;
+                    height: 220px;
+                   
+    
+                    .imageContainer {
+                      width: 45%;
+                      height: 100%;
+    
+                        img {
+                            width: 100%;
+                            height: 100%;
+                            object-fit: cover;
+                        }
+                    }
+    
+                    .texteContainer {
+                        background: url('../../../public/images/tontine.png');
+                        background-size: cover;
+                        background-repeat: no-repeat;
+                        background-position: center;
+                        height: 100%;
+                      
+                        width: 45%;
+    
+    
+                        .texteElem {
+    
+    
+    
+                            background: rgba($color: $color3, $alpha: .95);
+                            height: 100%;
+                            width: 100%;
+    
+    
+    
+    
+    
+    
+    
+    
+                            h2 {
+                                font-family: 'Montserrat';
+                                font-style: normal;
+                                font-weight: 700;
+                                font-size: 20px;
+                                line-height: 33px;
+                                color: $color1;
+                                text-align: center;
+                                padding-top: 15px;
+                            }
+    
+                            hr {
+                                width: 75px;
+                                height: 2px;
+                                display: block;
+                                margin: auto;
+                                background-color: $color1;
+                            }
+    
+                            p {
+                                padding: 15px;
+                                font-family: 'Montserrat';
+                                font-style: normal;
+                                font-weight: 500;
+                                font-size: 11px;
+                                line-height: 30px;
+                                color: $color1;
+                                width: 100%;
+                            }
+    
+                            button {
+                                background: #FFFFFF;
+                                border: 1px solid #66479B;
+                                border-radius: 7px;
+                                padding: 5px;
+                                margin: 5px 20px;
+    
+                                a {
+                                    color: $color3;
+                                    text-decoration: none;
+                                    font-style: normal;
+                                    font-weight: 500;
+                                    font-size: 10px;
+                                    line-height: 18px;
+                                }
+                            }
+                        }
+                    }
+                }
+    
+                .element2 {
+                    position: relative;
+                    @include flex;
+                        justify-content: center;
+                        width: 100%;
+                        height: 220px;
+                    
+                .texteContainer {
+                        background: url('../../../public/images/service.jpg');
+                        background-size: cover;
+                        background-repeat: no-repeat;
+                        background-position: center;
+                        height: 100%;
+                
+                        width: 45%;
+                
+                
+                        .texteElem {
+                
+                
+                
+                            background: rgba($color: $color3, $alpha: .95);
+                            height: 100%;
+                            width: 100%;
+                
+                
+                
+                
+                
+                
+                
+                
+                            h2 {
+                                font-family: 'Montserrat';
+                                font-style: normal;
+                                font-weight: 700;
+                                font-size: 20px;
+                                line-height: 33px;
+                                color: $color1;
+                                text-align: center;
+                                padding-top: 15px;
+                            }
+                
+                            hr {
+                                width: 75px;
+                                height: 2px;
+                                display: block;
+                                margin: auto;
+                                background-color: $color1;
+                            }
+                
+                            p {
+                                padding: 15px;
+                                font-family: 'Montserrat';
+                                font-style: normal;
+                                font-weight: 500;
+                                font-size: 11px;
+                                line-height: 30px;
+                                color: $color1;
+                                width: 100%;
+                            }
+                
+                            button {
+                                background: #FFFFFF;
+                                border: 1px solid #66479B;
+                                border-radius: 7px;
+                                padding: 5px;
+                                margin: 5px 20px;
+                
+                                a {
+                                    color: $color3;
+                                    text-decoration: none;
+                                    font-style: normal;
+                                    font-weight: 500;
+                                    font-size: 10px;
+                                    line-height: 18px;
+                                }
+                            }
+                        }
+                    }
+                                          .imageContainer {
+                                              width: 45%;
+                                              height: 100%;
+                    
+                                              img {
+                                                  width: 100%;
+                                                  height: 100%;
+                                                  object-fit: cover;
+                                              }
+                                          }
+                }
+            }
+        }
+}
+@media screen and(min-width:1201px) and (max-width:1600px) {
+    .fourEffect {
+        margin-top: 45px;
+        button {
+                position: absolute;
+                bottom: 0;
+                
+            }
+           .hr {
+               width: 75px;
+               height: 2px;
+    display: block;
+    margin: auto;
+               background-color: $color1;
+        
+           }
+            #element1 {
+                margin-top: 45px;
+            }
+    
+          
+            background-color: $color5;
+    
+           
+    
+            .container {
+                h1 {
+                    font-family: 'Montserrat';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: $fontP;
+                    line-height: 34px;
+                    text-align: center;
+                    color: $color3;
+                }
+    
+              
+    
+                .element1 {
+    position: relative;
+                    @include flex;
+                    justify-content: center;
+                    width: 100%;
+                    height: 285px;
+    
+    
+                    .imageContainer {
+                        width: 38%;
+                        height: 100%;
+    
+                        img {
+                            width: 100%;
+                            height: 100%;
+                            object-fit: cover;
+                        }
+                    }
+    
+                    .texteContainer {
+                        background: url('../../../public/images/tontine.png');
+                        background-size: cover;
+                        background-repeat: no-repeat;
+                        background-position: center;
+                        height: 100%;
+   
+                        width: 38%;
+    
+    
+                        .texteElem {
+    
+    
+    
+                            background: rgba($color: $color3, $alpha: .96);
+                            height: 100%;
+                            width: 100%;
+                          
+    
+    
+    
+    
+    
+    
+    
+    
+                            h2 {
+                                font-family: 'Montserrat';
+                                font-style: normal;
+                                font-weight: 700;
+                                font-size: $fontS;
+                                line-height: 33px;
+                                color: $color1;
+                                padding:35px 0 0 35px;
+                              
+                      
+                            }
+    
+                            hr {
+                                width: 75px;
+                                height: 2px;
+                                transform: translateX(35px);
+                          
+                                
+                                background-color: $color1;
+                            }
+    
+                            p {
+                                padding: 35px;
+                                font-family: 'Montserrat';
+                                font-style: normal;
+                                font-weight: 500;
+                                font-size: $fontT;
+                                line-height: 30px;
+                                color: $color1;
+                                width: 100%;
+                            }
+    
+                            button {
+                                background: #FFFFFF;
+                                border: 1px solid #66479B;
+                                border-radius: 7px;
+                               
+                                margin: 35px 35px;
+                                height: 40px;
+    
+                                a {
+                                    color: $color3;
+                                    text-decoration: none;
+                                    font-style: normal;
+                                    font-weight: 500;
+                                    font-size: $fontF;
+                                    line-height: 18px;
+                                    padding: 15px;
+                                }
+                            }
+                        }
+                    }
+                }
+    
+                .element2 {
+                    position: relative;
+                    @include flex;
+                    justify-content: center;
+                    width: 100%;
+                    height: 285px;
+    
+                    .texteContainer {
+                        background: url('../../../public/images/service.jpg');
+                        background-size: cover;
+                        background-repeat: no-repeat;
+                        background-position: center;
+                        height: 100%;
+    
+                        width: 38%;
+    
+    
+                        .texteElem {
+    
+    
+    
+                            background: rgba($color: $color3, $alpha: .95);
+                            height: 100%;
+                            width: 100%;
+    
+    
+    
+    
+    
+    
+    
+    
+                            h2 {
+                                font-family: 'Montserrat';
+                                font-style: normal;
+                                font-weight: 700;
+                                font-size: $fontS;
+                                line-height: 33px;
+                                color: $color1;
+                             
+                                padding: 35px 0 0 35px;
+                            }
+    
+                            hr {
+                                width: 75px;
+                                height: 2px;
+                               
+                                background-color: $color1;
+                                transform: translateX(35px);
+                            }
+    
+                            p {
+                                padding: 35px;
+                                font-family: 'Montserrat';
+                                font-style: normal;
+                                font-weight: 500;
+                                font-size: $fontT;
+                                line-height: 30px;
+                                color: $color1;
+                                width: 100%;
+                            }
+    
+                            button {
+                            background: #FFFFFF;
+                                border: 1px solid #66479B;
+                                border-radius: 7px;
+                                padding: 5px;
+                            margin: 35px 35px;
+                                height: 40px;
+                                a {
+                                    color: $color3;
+                                    text-decoration: none;
+                                    font-style: normal;
+                                    font-weight: 500;
+                                    font-size: $fontF;
+                                    line-height: 18px;
+                                    padding: 15px;
+                                }
+                            }
+                        }
+                    }
+    
+                    .imageContainer {
+                        width: 38%;
+                        height: 100%;
+    
+                        img {
+                            width: 100%;
+                            height: 100%;
+                            object-fit: cover;
+                        }
+                    }
+                }
+            }
+        }
+}
+@media screen and(min-width:1601px) and (max-width:2500px) {
+    .fourEffect {
+            margin-top: 65px;
+    
+            button {
+                position: absolute;
+                bottom: 0;
+    
+            }
+    
+            .hr {
+                width: 75px;
+                height: 2px;
+                display: block;
+                margin: auto;
+                background-color: $color1;
+    
+            }
+    
+            #element1 {
+                margin-top: 45px;
+            }
+    
+    
+            background-color: $color5;
+    
+    
+    
+            .container {
+                h1 {
+                    font-family: 'Montserrat';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: $fontP;
+                    line-height: 34px;
+                    text-align: center;
+                    color: $color3;
+                }
+    
+    
+    
+                .element1 {
+                    position: relative;
+                    @include flex;
+                    justify-content: center;
+                    width: 100%;
+                    height: 285px;
+    
+    
+                    .imageContainer {
+                        width: 38%;
+                        height: 100%;
+    
+                        img {
+                            width: 100%;
+                            height: 100%;
+                            object-fit: cover;
+                        }
+                    }
+    
+                    .texteContainer {
+                        background: url('../../../public/images/tontine.png');
+                        background-size: cover;
+                        background-repeat: no-repeat;
+                        background-position: center;
+                        height: 100%;
+    
+                        width: 38%;
+    
+    
+                        .texteElem {
+    
+    
+    
+                            background: rgba($color: $color3, $alpha: .96);
+                            height: 100%;
+                            width: 100%;
+    
+    
+    
+    
+    
+    
+    
+    
+    
+                            h2 {
+                                font-family: 'Montserrat';
+                                font-style: normal;
+                                font-weight: 700;
+                                font-size: $fontS;
+                                line-height: 33px;
+                                color: $color1;
+                                padding: 35px 0 0 35px;
+    
+    
+                            }
+    
+                            hr {
+                                width: 75px;
+                                height: 2px;
+                                transform: translateX(35px);
+    
+    
+                                background-color: $color1;
+                            }
+    
+                            p {
+                                padding: 35px;
+                                font-family: 'Montserrat';
+                                font-style: normal;
+                                font-weight: 500;
+                                font-size: $fontT;
+                                line-height: 30px;
+                                color: $color1;
+                                width: 100%;
+                            }
+    
+                            button {
+                                background: #FFFFFF;
+                                border: 1px solid #66479B;
+                                border-radius: 7px;
+                                padding: 5px;
+                                margin: 5px 35px;
+                                height: 40px;
+    
+                                a {
+                                    color: $color3;
+                                    text-decoration: none;
+                                    font-style: normal;
+                                    font-weight: 500;
+                                    font-size: $fontF;
+                                    line-height: 18px;
+                                }
+                            }
+                        }
+                    }
+                }
+    
+                .element2 {
+                    position: relative;
+                    @include flex;
+                    justify-content: center;
+                    width: 100%;
+                    height: 285px;
+    
+                    .texteContainer {
+                        background: url('../../../public/images/tontine.png');
+                        background-size: cover;
+                        background-repeat: no-repeat;
+                        background-position: center;
+                        height: 100%;
+    
+                        width: 38%;
+    
+    
+                        .texteElem {
+    
+    
+    
+                            background: rgba($color: $color3, $alpha: .95);
+                            height: 100%;
+                            width: 100%;
+    
+    
+    
+    
+    
+    
+    
+    
+                            h2 {
+                                font-family: 'Montserrat';
+                                font-style: normal;
+                                font-weight: 700;
+                                font-size: $fontS;
+                                line-height: 33px;
+                                color: $color1;
+    
+                                padding: 35px 0 0 35px;
+                            }
+    
+                            hr {
+                                width: 75px;
+                                height: 2px;
+    
+                                background-color: $color1;
+                                transform: translateX(35px);
+                            }
+    
+                            p {
+                                padding: 35px;
+                                font-family: 'Montserrat';
+                                font-style: normal;
+                                font-weight: 500;
+                                font-size: $fontT;
+                                line-height: 30px;
+                                color: $color1;
+                                width: 100%;
+                            }
+    
+                            button {
+                                background: #FFFFFF;
+                                border: 1px solid #66479B;
+                                border-radius: 7px;
+                                padding: 5px;
+                                margin: 5px 35px;
+                                height: 40px;
+    
+                                a {
+                                    color: $color3;
+                                    text-decoration: none;
+                                    font-style: normal;
+                                    font-weight: 500;
+                                    font-size: $fontF;
+                                    line-height: 18px;
+                                }
+                            }
+                        }
+                    }
+    
+                    .imageContainer {
+                        width: 38%;
+                        height: 100%;
+    
+                        img {
+                            width: 100%;
+                            height: 100%;
+                            object-fit: cover;
+                        }
+                    }
+                }
+            }
+        }
+}

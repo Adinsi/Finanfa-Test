@@ -1,0 +1,432 @@
+@import '../../../seetings.scss';
+
+@media screen and (min-width:320px) and (max-width : 768px) {
+ .fiveEffect{
+    // background-color: red;
+    margin-top: 45px;
+    .container{
+h1{font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color:$color3;
+
+}
+hr{
+  
+    width: 75px;
+        height: 1px;
+        display: block;
+        margin: auto;
+        background-color: $color4;
+}
+.titre{
+    margin-top: 45px;
+    h1{
+        font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 22px;
+            line-height: 37px;
+            color: $color2;
+        
+    }
+    hr{
+        width: 75px;
+            height: 1px;
+            display: block;
+            margin: auto;
+            background-color: $color2;
+    }
+}
+.compte{
+    background: url('../../../public/images/tontine.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 35px;
+    width: 100%;
+    height: 100px;
+    @include flex;
+    justify-content: center;
+    #padd {
+            border-right: 1px solid $color1;
+           
+            ;
+        }
+ 
+    .compteElement{
+      
+        background: rgba($color: $color3, $alpha: .95);
+            height: 100%;
+            width: 100%;
+            @include flex;
+                justify-content: center;
+                flex-direction: column;
+           
+            h2{
+                font-family: 'Montserrat';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 17px;
+                    line-height: 30px;
+                    color: $color1;
+            }
+    }
+}
+.partenaires{
+   background: rgba(250, 250, 250, 1);;
+    margin-top: 45px;
+    @include flex;
+  
+    width: 100%;
+        justify-content: center;
+    .patenairesContainer{
+        @include flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        height: 100%;
+        img{
+         min-width: 60px;
+         max-width: 100px;
+    
+        }
+    }
+}
+    }
+ }   
+}
+@media screen and (min-width:769px) and (max-width : 1200px) {
+    .fiveEffect {
+            // background-color: red;
+            margin-top: 45px;
+    
+            .container {
+                h1 {
+                    font-family: 'Montserrat';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 20px;
+                    line-height: 24px;
+                    text-align: center;
+                    color: $color3;
+    
+                }
+    
+                hr {
+    
+                    width: 75px;
+                    height: 1px;
+                    display: block;
+                    margin: auto;
+                    background-color: $color4;
+                }
+    
+                .titre {
+                    margin-top: 45px;
+    
+                    h1 {
+                        font-family: 'Montserrat';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 22px;
+                        line-height: 37px;
+                        color: $color2;
+    
+                    }
+    
+                    hr {
+                        width: 75px;
+                        height: 1px;
+                        display: block;
+                        margin: auto;
+                        background-color: $color2;
+                    }
+                }
+    
+                .compte {
+                    background: url('../../../public/images/epargne.jpg');
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    margin-top: 35px;
+                    width: 100%;
+                    height: 100px;
+                    @include flex;
+                    justify-content: center;
+    
+                    #padd {
+                        border-right: 1px solid $color1;
+    
+                        ;
+                    }
+    
+                    .compteElement {
+    
+                        background: rgba($color: $color3, $alpha: .95);
+                        height: 100%;
+                        width: 100%;
+                        @include flex;
+                        justify-content: center;
+                        flex-direction: column;
+    
+                        h2 {
+                            font-family: 'Montserrat';
+                            font-style: normal;
+                            font-weight: 500;
+                            font-size: 17px;
+                            line-height: 30px;
+                            color: $color1;
+                        }
+                    }
+                }
+    
+                .partenaires {
+                    background: rgba(250, 250, 250, 1);
+                    ;
+                    margin-top: 45px;
+                    @include flex;
+    
+                    width: 100%;
+                    justify-content: center;
+    
+                    .patenairesContainer {
+                        @include flex;
+                        justify-content: center;
+                        flex-wrap: wrap;
+                        height: 100%;
+    
+                        img {
+                            min-width: 100px;
+                            max-width: 200px;
+    
+                        }
+                    }
+                }
+            }
+        }
+}
+@media screen and (min-width:1201px) and (max-width : 1600px) {
+    .fiveEffect {
+            // background-color: red;
+            margin-top: 65px;
+    
+            .container {
+                h1 {
+                    font-family: 'Montserrat';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: $fontP;
+                    line-height: 24px;
+                    text-align: center;
+                    color: $color3;
+    
+                }
+    
+                hr {
+    
+                    width: 75px;
+                    height: 1px;
+                    display: block;
+                    margin: auto;
+                    background-color: $color4;
+                    margin-top: 15px;
+                }
+    
+                .titre {
+                    margin-top: 45px;
+    
+                    h1 {
+                        font-family: 'Montserrat';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: $fontP;
+                        line-height: 37px;
+                        color: $color2;
+    
+                    }
+    
+                    hr {
+                        width: 75px;
+                        height: 1px;
+                        display: block;
+                        margin: auto;
+                        background-color: $color2;
+                    }
+                }
+    
+                .compte {
+                    background: url('../../../public/images/epargne.jpg');
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    margin-top: 35px;
+                    width: 100%;
+                    height: 100px;
+                    @include flex;
+                    justify-content: center;
+    
+                    #padd {
+                        border-right: 1px solid $color1;
+    
+                        ;
+                    }
+    
+                    .compteElement {
+    
+                        background: rgba($color: $color3, $alpha: .95);
+                        height: 100%;
+                        width: 100%;
+                        @include flex;
+                        justify-content: center;
+                        flex-direction: column;
+    
+                        h2 {
+                            font-family: 'Montserrat';
+                            font-style: normal;
+                            font-weight: 500;
+                            font-size: $fontS;
+                            line-height: 30px;
+                            color: $color1;
+                        }
+                    }
+                }
+    
+                .partenaires {
+                    background: rgba(250, 250, 250, 1);
+                    ;
+                    margin-top: 45px;
+                    @include flex;
+    
+                    width: 100%;
+                    justify-content: center;
+    
+                    .patenairesContainer {
+                        @include flex;
+                        justify-content: center;
+                        flex-wrap: wrap;
+                        height: 100%;
+    
+                        img {
+                            min-width: 100px;
+                            max-width: 220px;
+    
+                        }
+                    }
+                }
+            }
+        }
+}
+@media screen and (min-width:1601px) and (max-width : 2500px) {
+    .fiveEffect {
+            // background-color: red;
+            margin-top: 65px;
+    
+            .container {
+                h1 {
+                    font-family: 'Montserrat';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: $fontP;
+                    line-height: 24px;
+                    text-align: center;
+                    color: $color3;
+    
+                }
+    
+                hr {
+    
+                    width: 75px;
+                    height: 1px;
+                    display: block;
+                    margin: auto;
+                    background-color: $color4;
+                    margin-top: 15px;
+                }
+    
+                .titre {
+                    margin-top: 45px;
+    
+                    h1 {
+                        font-family: 'Montserrat';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: $fontP;
+                        line-height: 37px;
+                        color: $color2;
+    
+                    }
+    
+                    hr {
+                        width: 75px;
+                        height: 1px;
+                        display: block;
+                        margin: auto;
+                        background-color: $color2;
+                    }
+                }
+    
+                .compte {
+                    background: url('../../../public/images/epargne.jpg');
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    margin-top: 35px;
+                    width: 100%;
+                    height: 100px;
+                    @include flex;
+                    justify-content: center;
+    
+                    #padd {
+                        border-right: 1px solid $color1;
+    
+                        ;
+                    }
+    
+                    .compteElement {
+    
+                        background: rgba($color: $color3, $alpha: .95);
+                        height: 100%;
+                        width: 100%;
+                        @include flex;
+                        justify-content: center;
+                        flex-direction: column;
+    
+                        h2 {
+                            font-family: 'Montserrat';
+                            font-style: normal;
+                            font-weight: 500;
+                            font-size: $fontS;
+                            line-height: 30px;
+                            color: $color1;
+                        }
+                    }
+                }
+    
+                .partenaires {
+                    background: rgba(250, 250, 250, 1);
+                    ;
+                    margin-top: 45px;
+                    @include flex;
+    
+                    width: 100%;
+                    justify-content: center;
+    
+                    .patenairesContainer {
+                        @include flex;
+                        justify-content: center;
+                        flex-wrap: wrap;
+                        height: 100%;
+    
+                        img {
+                            min-width: 100px;
+                            max-width: 220px;
+    
+                        }
+                    }
+                }
+            }
+        }
+}

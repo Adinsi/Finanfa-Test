@@ -1,0 +1,580 @@
+@import '../../../seetings.scss';
+
+@media screen and(min-width: 320px) and (max-width : 768px) {
+    .threeEffect{
+        // background-color: red;
+        width: 100%;
+        .container{
+            margin: 45px 30px;
+            img{
+                display: none;
+            }
+            h1{
+                font-family: 'Montserrat';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 20px;
+                    line-height: 121.52%;
+                    color: $color3;
+                    text-align: center;
+                    padding-top: 15px;
+                    padding-bottom: 5px;
+            }
+                          hr {
+                              width: 75px;
+                              height: 2px;
+                              display: block;
+                              margin: auto;
+                              background-color: $color2;
+                          }
+                          p{
+                            font-family: 'Montserrat';
+                                font-style: normal;
+                                font-weight: 400;
+                                font-size: 10px;
+                                line-height: 25px;
+                                padding: 15px;
+                                
+                          }
+                          button{
+                            background: #FFFFFF;
+                                border: 1px solid #66479B;
+                                border-radius: 7px;
+                                padding: 5px;
+                                margin:5px 20px;
+                                a{
+                                    color: $color3;
+                                    text-decoration: none;
+                                    font-style: normal;
+                                        font-weight: 500;
+                                        font-size: 10px;
+                                        line-height: 18px;
+                                }
+                          }
+                          .consultation{
+                            background: #66479B;
+                                border-radius: 7px;
+                                a{
+                                    color: $color1;
+                                    text-decoration: none;
+                                }
+                          }
+                         
+.first,.second{
+    box-shadow: 5px 5px 5px $color6;
+  
+}
+        }
+    }
+}
+@media screen and(min-width: 769px) and (max-width : 1200px) {
+    .threeEffect {
+            // background-color: red;
+            width: 100%;
+            margin-top: 65px;
+    
+            .container {
+                
+                width: 100%;
+                .first{
+                @include flex;
+                justify-content: space-around;
+           
+                .containerImage{
+                    
+                    // background-color: red;
+                    width: 50%;
+                    img{
+               width: 100%;
+               object-fit: cover;
+                
+                    }
+                }
+                .containerTitre{
+                    width: 50%;
+                h1 {
+                        font-family: 'Montserrat';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 20px;
+                        line-height: 121.52%;
+                        color: $color3;
+                        text-align: center;
+                        padding-top: 15px;
+                        padding-bottom: 5px;
+                    }
+                
+                    hr {
+                        width: 75px;
+                        height: 2px;
+                        display: block;
+                        margin: auto;
+                        background-color: $color2;
+                    }
+                
+                    p {
+                        font-family: 'Montserrat';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 10px;
+                        line-height: 25px;
+                        padding: 15px;
+                
+                    }
+                
+                    button {
+                        background: #FFFFFF;
+                        border: 1px solid #66479B;
+                        border-radius: 7px;
+                        padding: 5px;
+                        margin: 5px 20px;
+                
+                        a {
+                            color: $color3;
+                            text-decoration: none;
+                            font-style: normal;
+                            font-weight: 500;
+                            font-size: 10px;
+                            line-height: 18px;
+                        }
+                    }
+                
+                    .consultation {
+                        background: #66479B;
+                        border-radius: 7px;
+                
+                        a {
+                            color: $color1;
+                            text-decoration: none;
+                        }
+                    }
+                }
+                }
+                .second{
+                   @include flex;
+                    justify-content: space-around;
+                    
+                        // margin: 0 45px;
+                        .containerImage {
+                            @include flexStart;
+                            // background-color: red;
+                            width: 50%;
+                    
+                            img {
+                                width: 100%;
+                                object-fit: cover;
+                    
+                            }
+                        }
+                    
+                        .containerTitre {
+                            width: 50%;
+                    
+                            h1 {
+                                font-family: 'Montserrat';
+                                font-style: normal;
+                                font-weight: 700;
+                                font-size: 20px;
+                                line-height: 121.52%;
+                                color: $color3;
+                                text-align: center;
+                                padding-top: 15px;
+                                padding-bottom: 5px;
+                            }
+                    
+                            hr {
+                                width: 75px;
+                                height: 2px;
+                                display: block;
+                                margin: auto;
+                                background-color: $color2;
+                            }
+                    
+                            p {
+                                font-family: 'Montserrat';
+                                font-style: normal;
+                                font-weight: 400;
+                                font-size: 10px;
+                                line-height: 25px;
+                                padding: 15px;
+                    
+                            }
+                    
+                            button {
+                                background: #FFFFFF;
+                                border: 1px solid #66479B;
+                                border-radius: 7px;
+                                padding: 5px;
+                                margin: 5px 20px;
+                    
+                                a {
+                                    color: $color3;
+                                    text-decoration: none;
+                                    font-style: normal;
+                                    font-weight: 500;
+                                    font-size: 10px;
+                                    line-height: 18px;
+                                }
+                            }
+                    
+                            .consultation {
+                                background: #66479B;
+                                border-radius: 7px;
+                    
+                                a {
+                                    color: $color1;
+                                    text-decoration: none;
+                                }
+                            }
+                        }
+                }
+            }
+}
+}
+@media screen and(min-width: 1201px) and (max-width : 1600px) {
+    .threeEffect {
+            // background-color: red;
+            width: 100%;
+            margin-top: 65px;
+            
+    
+            .container {
+    
+                width: 100%;
+    
+                .first {
+                    @include flex;
+                    justify-content: space-around;
+     
+                    .containerImage {
+    
+                        // background-color: red;
+                        width: 50%;
+    
+                        img {
+                            width: 100%;
+                            object-fit: cover;
+                            height: 350px;
+    
+                        }
+                    }
+    
+                    .containerTitre {
+                        width: 50%;
+    
+                        h1 {
+                            font-family: 'Montserrat';
+                            font-style: normal;
+                            font-weight: 700;
+                            font-size: $fontP;
+                            line-height: 121.52%;
+                            color: $color3;
+                            text-align: center;
+                            padding-top: 15px;
+                            padding-bottom: 5px;
+                        }
+    
+                        hr {
+                            width: 75px;
+                            height: 2px;
+                            display: block;
+                            margin: auto;
+                            background-color: $color2;
+                        }
+    
+                        p {
+                            font-family: 'Montserrat';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: $fontT;
+                            line-height: 25px;
+                            padding: 15px;
+    
+                        }
+    
+                        button {
+                            background: #FFFFFF;
+                            border: 1px solid #66479B;
+                            border-radius: 7px;
+                            padding: 5px;
+                            margin: 5px 20px;
+                            height: 40px;
+    
+                            a {
+                                color: $color3;
+                                text-decoration: none;
+                                font-style: normal;
+                                font-weight: 500;
+                                font-size: $fontF;
+                                line-height: 18px;
+                            }
+                        }
+    
+                        .consultation {
+                            background: #66479B;
+                            border-radius: 7px;
+    
+                            a {
+                                color: $color1;
+                                text-decoration: none;
+                            }
+                        }
+                    }
+                }
+    
+                .second {
+                    @include flex;
+                    justify-content: space-around;
+    
+                    // margin: 0 45px;
+                    .containerImage {
+                        @include flexStart;
+                        // background-color: red;
+                        width: 50%;
+    
+                        img {
+                            width: 100%;
+                            object-fit: cover;
+                            height: 350px;
+    
+                        }
+                    }
+    
+                    .containerTitre {
+                        width: 50%;
+    
+                        h1 {
+                            font-family: 'Montserrat';
+                            font-style: normal;
+                            font-weight: 700;
+                            font-size: $fontP;
+                            line-height: 121.52%;
+                            color: $color3;
+                            text-align: center;
+                            padding-top: 15px;
+                            padding-bottom: 5px;
+                        }
+    
+                        hr {
+                            width: 75px;
+                            height: 2px;
+                            display: block;
+                            margin: auto;
+                            background-color: $color2;
+                        }
+    
+                        p {
+                            font-family: 'Montserrat';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: $fontT;
+                            line-height: 25px;
+                            padding: 15px;
+    
+                        }
+    
+                        button {
+                            background: #FFFFFF;
+                            border: 1px solid #66479B;
+                            border-radius: 7px;
+                            padding: 5px;
+                            margin: 5px 20px;
+                            height: 40px;
+    
+                            a {
+                                color: $color3;
+                                text-decoration: none;
+                                font-style: normal;
+                                font-weight: 500;
+                                font-size: $fontF;
+                                line-height: 18px;
+                            }
+                        }
+    
+                        .consultation {
+                            background: #66479B;
+                            border-radius: 7px;
+    
+                            a {
+                                color: $color1;
+                                text-decoration: none;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+}
+@media screen and(min-width:1601px) and (max-width : 2500px) {
+    .threeEffect {
+            // background-color: red;
+            width: 100%;
+            margin-top: 65px;
+    
+            .container {
+    
+                width: 100%;
+    
+                .first {
+                    @include flex;
+                    justify-content: space-around;
+    
+                    .containerImage {
+    
+                        // background-color: red;
+                        width: 50%;
+    
+                        img {
+                            width: 100%;
+                            object-fit: cover;
+                            height:350px;
+    
+                        }
+                    }
+    
+                    .containerTitre {
+                        width: 50%;
+    
+                        h1 {
+                            font-family: 'Montserrat';
+                            font-style: normal;
+                            font-weight: 700;
+                            font-size: $fontP;
+                            line-height: 121.52%;
+                            color: $color3;
+                            text-align: center;
+                            padding-top: 15px;
+                            padding-bottom: 5px;
+                        }
+    
+                        hr {
+                            width: 75px;
+                            height: 2px;
+                            display: block;
+                            margin: auto;
+                            background-color: $color2;
+                        }
+    
+                        p {
+                            font-family: 'Montserrat';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: $fontT;
+                            line-height: 25px;
+                            padding: 15px;
+    
+                        }
+    
+                        button {
+                            background: #FFFFFF;
+                            border: 1px solid #66479B;
+                            border-radius: 7px;
+                            padding: 5px;
+                            margin: 5px 20px;
+                            height: 40px;
+    
+                            a {
+                                color: $color3;
+                                text-decoration: none;
+                                font-style: normal;
+                                font-weight: 500;
+                                font-size: $fontF;
+                                line-height: 18px;
+                            }
+                        }
+    
+                        .consultation {
+                            background: #66479B;
+                            border-radius: 7px;
+    
+                            a {
+                                color: $color1;
+                                text-decoration: none;
+                            }
+                        }
+                    }
+                }
+    
+                .second {
+                    @include flex;
+                    justify-content: space-around;
+    
+                    // margin: 0 45px;
+                    .containerImage {
+                        @include flexStart;
+                        // background-color: red;
+                        width: 50%;
+    
+                        img {
+                            width: 100%;
+                            object-fit: cover;
+                            height:350px;
+    
+                        }
+                    }
+    
+                    .containerTitre {
+                        width: 50%;
+    
+                        h1 {
+                            font-family: 'Montserrat';
+                            font-style: normal;
+                            font-weight: 700;
+                            font-size: $fontP;
+                            line-height: 121.52%;
+                            color: $color3;
+                            text-align: center;
+                            padding-top: 15px;
+                            padding-bottom: 5px;
+                        }
+    
+                        hr {
+                            width: 75px;
+                            height: 2px;
+                            display: block;
+                            margin: auto;
+                            background-color: $color2;
+                        }
+    
+                        p {
+                            font-family: 'Montserrat';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: $fontT;
+                            line-height: 25px;
+                            padding: 15px;
+    
+                        }
+    
+                        button {
+                            background: #FFFFFF;
+                            border: 1px solid #66479B;
+                            border-radius: 7px;
+                            padding: 5px;
+                            margin: 5px 20px;
+                            height: 40px;
+    
+                            a {
+                                color: $color3;
+                                text-decoration: none;
+                                font-style: normal;
+                                font-weight: 500;
+                                font-size: $fontF;
+                                line-height: 18px;
+                            }
+                        }
+    
+                        .consultation {
+                            background: #66479B;
+                            border-radius: 7px;
+    
+                            a {
+                                color: $color1;
+                                text-decoration: none;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+}

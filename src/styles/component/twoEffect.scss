@@ -1,0 +1,421 @@
+@import '../../../seetings.scss';
+
+@media screen and (min-width:320px) and (max-width : 768px) {
+    .Twoeffect {
+
+        width: 100%;
+
+        .containerTwo {
+            margin: 45px 30px;
+
+            h1 {
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 22px;
+                line-height: 37px;
+                color: $color3;
+                text-align: center;
+
+            }
+
+            hr {
+                width: 75px;
+                height: 2px;
+                display: block;
+                margin: auto;
+                background-color: $color2;
+            }
+
+            .flexElement {
+                width: 100%;
+                margin-top: 25px;
+
+                .first {
+                    @include flexStart;
+                    flex-direction: column;
+
+                    h2 {
+                        font-family: 'Montserrat';
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 18px;
+                        line-height: 117.02%;
+                    }
+
+                    button {
+                        background-color: $color6;
+                        height: 30px;
+                        width: 235px;
+                        border:1px solid;
+                        margin: 15px;
+                        border-radius: 7px;
+                        cursor: pointer;
+                        font-family: 'Inter';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 10px;
+                        line-height: 21px;
+                        position: relative;
+
+                        &:hover {
+                            background-color: $color3;
+                        }
+
+                        i {
+                            position: absolute;
+                            left: 5px;
+                            padding: 5px;
+                        }
+                    }
+
+                    .principal {
+                        background-color: $color1;
+                        border: 1px solid $color7;
+
+                        &:hover {
+                            background-color: $color4;
+
+                            a {
+                                color: $color1;
+                            }
+
+                        }
+
+                        a {
+                            color: $color7;
+                            text-decoration: none;
+                        }
+
+                    }
+                }
+                .second{
+                    img{
+                        width: 100%;
+                        object-fit: cover;
+                    }
+                }
+
+            }
+        }
+
+    }
+}
+
+@media screen and(min-width: 769px) and (max-width:900px) {
+    .Twoeffect {
+    
+            width: 100%;
+    
+            .containerTwo {
+                margin: 45px 30px;
+    
+                h1 {
+                    font-family: 'Montserrat';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 22px;
+                    line-height: 37px;
+                    color: $color3;
+                    text-align: center;
+    
+                }
+    
+                hr {
+                    width: 75px;
+                    height: 2px;
+                    display: block;
+                    margin: auto;
+                    background-color: $color2;
+                }
+    
+                .flexElement {
+                    width: 100%;
+                    margin-top: 25px;
+                    @include flex;
+                    justify-content: space-around;
+    
+                    .first {
+                        @include flexStart;
+                        flex-direction: column;
+    
+                        h2 {
+                            font-family: 'Montserrat';
+                            font-style: normal;
+                            font-weight: 600;
+                            font-size: 18px;
+                            line-height: 117.02%;
+                        }
+    
+                        button {
+                            background-color: $color6;
+                            height: 30px;
+                            width: 235px;
+                            border: 1px solid;
+                            margin: 15px;
+                            border-radius: 7px;
+                            cursor: pointer;
+                            font-family: 'Inter';
+                            font-style: normal;
+                            font-weight: 700;
+                            font-size: 10px;
+                            line-height: 21px;
+                            position: relative;
+    
+                            &:hover {
+                                background-color: $color3;
+                            }
+    
+                            i {
+                                position: absolute;
+                                left: 5px;
+                                    padding: 5px;
+                            }
+                        }
+    
+                        .principal {
+                            background-color: $color1;
+                            border: 1px solid $color7;
+    
+                            &:hover {
+                                background-color: $color4;
+    
+                                a {
+                                    color: $color1;
+                                }
+    
+                            }
+    
+                            a {
+                                color: $color7;
+                                text-decoration: none;
+                            }
+    
+                        }
+                    }
+    
+                    .second {
+                        img {
+                            width: 100%;
+                            object-fit: cover;
+                        }
+                    }
+    
+                }
+            }
+    
+        }
+}
+@media screen and(min-width: 901px) and (max-width:1600px) {
+    .Twoeffect {
+    
+            width: 100%;
+    
+            .containerTwo {
+                margin: 45px 30px;
+    
+                h1 {
+                    font-family: 'Montserrat';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: $fontP;
+                    line-height: 37px;
+                    color: $color3;
+                    text-align: center;
+    
+                }
+    
+                hr {
+                    width: 75px;
+                    height: 2px;
+                    display: block;
+                    margin: auto;
+                    background-color: $color2;
+                }
+    
+                .flexElement {
+                    width: 100%;
+                    margin-top: 25px;
+                    @include flex;
+                    justify-content: space-around;
+    
+                    .first {
+                        @include flexStart;
+                        flex-direction: column;
+                        width: 50%;
+    
+                        h2 {
+                            font-family: 'Montserrat';
+                            font-style: normal;
+                            font-weight: 600;
+                            font-size: $fontS;
+                            line-height: 117.02%;
+                            width: 80%;
+                        }
+    
+                        button {
+                            background-color: $color6;
+                            height: 40px;
+                            width: 235px;
+                            border: 1px solid;
+                            margin: 15px;
+                            border-radius: 7px;
+                            cursor: pointer;
+                            font-family: 'Inter';
+                            font-style: normal;
+                            font-weight: 700;
+                            font-size: $fontF;
+                            line-height: 21px;
+                            position: relative;
+    
+                            &:hover {
+                                background-color: $color3;
+                            }
+    
+                            i {
+                                position: absolute;
+                                left: 5px;
+                                    padding: 5px;
+                            }
+                        }
+    
+                        .principal {
+                            background-color: $color1;
+                            border: 1px solid $color7;
+    
+                            &:hover {
+                                background-color: $color4;
+    
+                                a {
+                                    color: $color1;
+                                }
+    
+                            }
+    
+                            a {
+                                color: $color7;
+                                text-decoration: none;
+                            }
+    
+                        }
+                    }
+    
+                    .second {
+                        img {
+                            width: 100%;
+                            object-fit: cover;
+                            height:350px;
+                        }
+                    }
+    
+                }
+            }
+    
+        }
+}
+@media screen and(min-width: 1601px) and (max-width:2500px) {
+    .Twoeffect {
+    
+            width: 100%;
+    
+            .containerTwo {
+                margin: 45px 30px;
+    
+                h1 {
+                    font-family: 'Montserrat';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: $fontP;
+                    line-height: 37px;
+                    color: $color3;
+                    text-align: center;
+    
+                }
+    
+                hr {
+                    width: 75px;
+                    height: 2px;
+                    display: block;
+                    margin: auto;
+                    background-color: $color2;
+                }
+    
+                .flexElement {
+                    width: 100%;
+                    margin-top: 25px;
+                    @include flex;
+                    justify-content: space-around;
+    
+                    .first {
+                        @include flexStart;
+                        flex-direction: column;
+                        width: 50%;
+    
+                        h2 {
+                            font-family: 'Montserrat';
+                            font-style: normal;
+                            font-weight: 600;
+                            font-size: $fontS;
+                            line-height: 117.02%;
+                            width: 80%;
+                        }
+    
+                        button {
+                            background-color: $color6;
+                            height: 40px;
+                            width: 235px;
+                            border: 1px solid;
+                            margin: 15px;
+                            border-radius: 7px;
+                            cursor: pointer;
+                            font-family: 'Inter';
+                            font-style: normal;
+                            font-weight: 700;
+                            font-size: $fontF;
+                            line-height: 21px;
+                            position: relative;
+    
+                            &:hover {
+                                background-color: $color3;
+                            }
+    
+                            i {
+                                position: absolute;
+                                left: 5px;
+                                    padding: 5px;
+                            }
+                        }
+    
+                        .principal {
+                            background-color: $color1;
+                            border: 1px solid $color7;
+    
+                            &:hover {
+                                background-color: $color4;
+    
+                                a {
+                                    color: $color1;
+                                }
+    
+                            }
+    
+                            a {
+                                color: $color7;
+                                text-decoration: none;
+                            }
+    
+                        }
+                    }
+    
+                    .second {
+                        img {
+                            width: 100%;
+                            object-fit: cover;
+                        }
+                    }
+    
+                }
+            }
+    
+        }
+}

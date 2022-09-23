@@ -1,0 +1,342 @@
+@import '../../../seetings';
+
+@media screen and (min-width:320px) and (max-width: 528px) {
+    .carousel {
+        min-width: 320px;
+        max-width: 528px;
+       
+        height: 100vh;
+        -ms-height: 100vh;
+        -webkit-height: 100vh;
+        -moz-height: 100vh;
+
+
+
+
+
+        .carouselImg {
+            height: 100%;
+            width: 100%;
+            background-position:8%;
+            background-repeat: no-repeat;
+            background-size: cover;
+    
+    
+            opacity: 1;
+            transition: 1s all ease;
+
+
+
+
+
+            .fa-chevron-left {
+                color: white;
+                position: absolute;
+                top: 50%;
+                transform: translateY(-50%);
+                font-size: 40px;
+                cursor: pointer;
+                margin-left: 15px;
+            }
+
+            .fa-chevron-right {
+                color: white;
+                position: absolute;
+                top: 50%;
+                right: 0;
+                transform: translateY(-50%);
+                font-size: 40px;
+                cursor: pointer;
+                margin-right: 15px;
+            }
+
+         
+        }
+
+        
+    }
+}
+
+@media screen and (min-width:529px) and (max-width: 768px) {
+    .carousel {
+        width: 100%;
+        height: 100vh;
+
+
+
+
+        .carouselImg {
+            height: 100%;
+            width: 100%;
+            background-position: 10%;
+            background-repeat: no-repeat;
+            background-size: cover;
+            object-fit: cover;
+            opacity: 1;
+            transition: 1s all ease;
+
+
+
+            .fa-chevron-left {
+                color: white;
+                position: absolute;
+                top: 50%;
+                transform: translateY(-50%);
+                font-size: 45px;
+                cursor: pointer;
+                margin-left: 15px;
+            }
+
+            .fa-chevron-right {
+                color: white;
+                position: absolute;
+                top: 50%;
+                right: 0;
+                transform: translateY(-50%);
+                font-size: 45px;
+                cursor: pointer;
+                margin-right: 15px;
+            }
+
+            .buttonContainer {
+                width: 100%;
+                display: flex;
+                align-content: center;
+                align-items: center;
+                flex-direction: column;
+                position: absolute;
+                top: 70%;
+                left: 50%;
+                transform: translateX(-50%);
+
+                button {
+                    cursor: pointer;
+                    width: 90%;
+                    height: 46px;
+                    margin-bottom: 35px;
+                    background-color: $color4;
+                    border: none;
+                    opacity: .9;
+
+                    &:nth-child(2) {
+                        background-color: $color1;
+
+                        &:hover {
+                            opacity: 1;
+                        }
+
+                    }
+
+                    &:hover {
+                        opacity: 1;
+
+                    }
+
+                    a {
+                        text-decoration: none;
+                        text-transform: uppercase;
+                        color: $color2;
+                        font-family: 'Montserrat', sans-serif !important;
+                        font-weight: 600;
+                        font-size: 18px;
+                        font-style: normal;
+                        line-height: 27px;
+                        z-index: 3;
+                    }
+
+                }
+            }
+
+        }
+
+        h1 {
+            color: $color1;
+            align-items: center;
+            display: flex;
+            align-content: center;
+            flex-direction: column;
+            position: absolute;
+            top: 25%;
+            left: 25px;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 900;
+            font-style: normal;
+            font-size: 34px;
+            line-height: 41px;
+
+
+
+
+        }
+    }
+}
+
+@media screen and (min-width:769px) and (max-width: 1280px) {
+    .carousel {
+        width: 100%;
+        height: 100vh;
+
+
+
+
+        .carouselImg {
+            height: 100%;
+            width: 100%;
+            background-position: 5%;
+            background-repeat: no-repeat;
+            background-size: cover;
+            object-fit: cover;
+            opacity: 1;
+            transition: 1s all ease;
+           
+
+
+
+            .fa-chevron-left {
+                color: white;
+                position: absolute;
+                top: 50%;
+                transform: translateY(-50%);
+                font-size: 50px;
+                cursor: pointer;
+                margin-left: 15px;
+            }
+
+            .fa-chevron-right {
+                color: white;
+                position: absolute;
+                top: 50%;
+                right: 0;
+                transform: translateY(-50%);
+                font-size: 50px;
+                cursor: pointer;
+                margin-right: 15px;
+            }
+
+            .buttonContainer {
+                width: 100%;
+                display: flex;
+                align-content: center;
+                align-items: center;
+                flex-direction: row;
+                position: absolute;
+                top: 70%;
+                left: 50%;
+                transform: translateX(-50%);
+
+                button {
+                    width: 40%;
+                    height: 56px;
+                    margin-right: 15px;
+                    margin-left: 25px;
+                    margin-bottom: 35px;
+                    background-color: $color4;
+                    border: none;
+                    opacity: .9;
+                    cursor: pointer;
+
+                    &:nth-child(2) {
+                        background-color: $color1;
+
+                        &:hover {
+                            opacity: 1;
+                        }
+
+                    }
+
+                    &:hover {
+                        opacity: 1;
+
+                    }
+
+                    a {
+                        text-decoration: none;
+                        text-transform: uppercase;
+                        color: $color2;
+                        font-family: 'Montserrat', sans-serif !important;
+                        font-weight: 600;
+                        font-size: 18px;
+                        font-style: normal;
+                        line-height: 27px;
+                        z-index: 3;
+                    }
+
+                }
+            }
+
+        }
+
+        h1 {
+            color: $color1;
+            align-items: center;
+            display: flex;
+            align-content: center;
+            flex-direction: column;
+            position: absolute;
+            top: 25%;
+            left: 25px;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 900;
+            font-style: normal;
+            font-size: 34px;
+            line-height: 41px;
+
+
+
+
+        }
+    }
+}
+
+@media screen and (min-width:1281px) and (max-width: 2500px) {
+    .carousel {
+        width: 100%;
+        height: 100vh;
+       
+  
+
+
+
+        .carouselImg {
+            height: 100%;
+            margin: 0 45px;
+        
+         
+            
+            // background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            object-fit: cover;
+            opacity: 1;
+            transition: 2s all ease;
+          
+
+
+
+            .fa-chevron-left {
+                color:$color1;
+                position: absolute;
+                top: 60%;
+                transform: translateY(-60%);
+                font-size: 50px;
+                cursor: pointer;
+                margin-left: 15px;
+            }
+
+            .fa-chevron-right {
+                color:$color1;
+                position: absolute;
+                top: 60%;
+                right: 65px;
+                transform: translateY(-60%);
+                font-size: 50px;
+                cursor: pointer;
+                margin-right: 15px;
+            }
+
+      
+
+       
+    }
+}
+}

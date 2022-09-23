@@ -1,0 +1,495 @@
+@import '../../../seetings.scss';
+
+
+
+@media screen and (min-width:320px) and (max-width : 768px) {
+    .oneEffect {
+        background-color: #f5f5f5;
+        width: 100%;
+      
+        .container {
+            margin: 45px 45px;
+
+            h1 {
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 25px;
+                line-height: 40px;
+                color: $color2;
+                text-align: center;
+
+                span {
+                    font-family: 'Montserrat';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 25px;
+                    line-height: 40px;
+                    color: $color3;
+                }
+
+            }
+
+            .hr {
+                width: 75px;
+                height: 2px;
+                display: block;
+                margin: auto;
+                background-color: $color3;
+            }
+            .flexContainer{
+                margin: 45px 0px;
+               .element{
+            box-shadow: 0px 0px 10px 1px rgba(77, 77, 77, 0.25);
+                border-radius: 11px;
+                margin: 45px;
+             height: auto;
+                padding: 35px;
+                &:hover {
+                        background-color: $color3;
+                
+                        p {
+                            color: $color5;
+                        }
+                
+                        h2 {
+                            color: $color5;
+                        }
+                    }
+                &:nth-child(1){
+                    background-color: $color3;
+                    h2{
+                        color: $color5;
+                    }
+                    p{
+                        color: $color5;
+                    }
+                    &:hover{
+                        background-color: $color5;
+                        p{
+                            color: $color2;
+                        }
+                        h2{
+                            color: $color3;
+                        }
+                    }
+                }
+            
+             
+                h2 {
+                        font-family: 'Montserrat';
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 13px;
+                        line-height: 26px;
+                        text-align: center;
+                        color: $color3;
+                       
+                    }
+                    hr{
+                            width: 75px;
+                                height: 2px;
+                                display: block;
+                                margin: auto;
+                                background-color: $color3;
+                    }
+                    p{
+                        font-family: 'Montserrat';
+                            font-style: normal;
+                            font-weight: 500;
+                            font-size: 10px;
+                            line-height: 22px;
+                            text-align: center;
+                            margin-top: 15px;
+                          
+                    }
+               }
+            }
+        }
+    }
+}
+
+@media screen and (min-width:768px) and (max-width : 899px) {
+.oneEffect {
+        background-color:$color5;
+        width: 100%;
+        
+        .container {
+            margin: 45px 45px;
+
+            h1 {
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 25px;
+                line-height: 40px;
+                color: $color2;
+                text-align: center;
+
+                span {
+                    font-family: 'Montserrat';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 25px;
+                    line-height: 40px;
+                    color: $color3;
+                }
+
+            }
+
+            .hr {
+                width: 75px;
+                height: 2px;
+                display: block;
+                margin: auto;
+                background-color: $color3;
+            }
+
+            .flexContainer {
+                margin: 45px 0px;
+                @include flex;
+                justify-content: space-around;
+                height: auto;
+      
+
+                .element {
+                    box-shadow: 0px 0px 10px 1px rgba(77, 77, 77, 0.25);
+                    border-radius: 11px;
+                    padding: 5px;
+                  
+                  width: 150px;
+                    height: auto;
+                
+                  
+
+                    &:hover {
+                        background-color: $color3;
+
+                        p {
+                            color: $color5;
+                        }
+
+                        h2 {
+                            color: $color5;
+                        }
+                    }
+
+                    &:nth-child(1) {
+                        background-color: $color3;
+
+                        h2 {
+                            color: $color5;
+                        }
+
+                        p {
+                            color: $color5;
+                           
+                        }
+
+                        &:hover {
+                            background-color: $color5;
+
+                            p {
+                                color: $color2;
+                            }
+
+                            h2 {
+                                color: $color3;
+                            }
+                        }
+                    }
+
+
+                    h2 {
+                        font-family: 'Montserrat';
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 13px;
+                        line-height: 26px;
+                        text-align: center;
+                        color: $color3;
+
+                    }
+
+                    hr {
+                        width: 75px;
+                        height: 2px;
+                        display: block;
+                        margin: auto;
+                        background-color: $color3;
+                    }
+
+                    p {
+                        font-family: 'Montserrat';
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 10px;
+                        line-height: 22px;
+                        text-align: center;
+                        margin-top: 15px;
+                        
+                            width: 100%;
+                            padding: 0;
+
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width:900px) and (max-width : 1599px) {
+    .oneEffect {
+            background-color: $color5;
+            width: 100%;
+    
+            .container {
+                margin: 45px 45px;
+    
+                h1 {
+                    font-family: 'Montserrat';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: $fontP;
+                    line-height: 40px;
+                    color: $color2;
+                    text-align: center;
+    
+                    span {
+                        font-family: 'Montserrat';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: $fontP;
+                        line-height: 40px;
+                        color: $color3;
+                    }
+    
+                }
+    
+                .hr {
+                    width: 75px;
+                    height: 2px;
+                    display: block;
+                    margin: auto;
+                    background-color: $color3;
+                }
+    
+                .flexContainer {
+                    margin: 45px 0px;
+                    @include flex;
+                    justify-content: space-around;
+    
+    
+                    .element {
+                        box-shadow: 0px 0px 10px 1px rgba(77, 77, 77, 0.25);
+                        border-radius: 11px;
+                        padding: 35px;
+    
+                        width: 320px;
+                        height: 225px;
+    
+    
+    
+                        &:hover {
+                            background-color: $color3;
+    
+                            p {
+                                color: $color5;
+                            }
+    
+                            h2 {
+                                color: $color5;
+                            }
+                        }
+    
+                        &:nth-child(1) {
+                            background-color: $color3;
+    
+                            h2 {
+                                color: $color5;
+                            }
+    
+                            p {
+                                color: $color5;
+    
+                            }
+    
+                            &:hover {
+                                background-color: $color5;
+    
+                                p {
+                                    color: $color2;
+                                }
+    
+                                h2 {
+                                    color: $color3;
+                                }
+                            }
+                        }
+    
+    
+                        h2 {
+                            font-family: 'Montserrat';
+                            font-style: normal;
+                            font-weight: 600;
+                            font-size: $fontS;
+                            line-height: 26px;
+                            text-align: center;
+                            color: $color3;
+    
+                        }
+    
+                        hr {
+                            width: 75px;
+                            height: 2px;
+                            display: block;
+                            margin: auto;
+                            background-color: $color3;
+                        }
+    
+                        p {
+                            font-family: 'Montserrat';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: $fontT;
+                            line-height: 22px;
+                            text-align: center;
+                            margin-top: 15px;
+                            color: $color8;
+                            width: 100%;
+                            padding: 0;
+    
+                        }
+                    }
+                }
+            }
+        }
+}
+
+@media screen and (min-width:1600px) and (max-width : 2500px) {
+    .oneEffect {
+            background-color: $color5;
+            width: 100%;
+    
+            .container {
+                margin: 45px 45px;
+    
+                h1 {
+                    font-family: 'Montserrat';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 33px;
+                    line-height: 40px;
+                    color: $color2;
+                    text-align: center;
+    
+                    span {
+                        font-family: 'Montserrat';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 33px;
+                        line-height: 40px;
+                        color: $color3;
+                    }
+    
+                }
+    
+                .hr {
+                    width: 75px;
+                    height: 2px;
+                    display: block;
+                    margin: auto;
+                    background-color: $color3;
+                }
+    
+                .flexContainer {
+                    margin: 45px 0px;
+                    @include flex;
+                    justify-content: space-around;
+    
+    
+                    .element {
+                        box-shadow: 0px 0px 10px 1px rgba(77, 77, 77, 0.25);
+                        border-radius: 11px;
+                        padding: 35px;
+    
+                        width: 300px;
+                        height: 200px;
+    
+    
+    
+                        &:hover {
+                            background-color: $color3;
+    
+                            p {
+                                color: $color5;
+                            }
+    
+                            h2 {
+                                color: $color5;
+                            }
+                        }
+    
+                        &:nth-child(1) {
+                            background-color: $color3;
+    
+                            h2 {
+                                color: $color5;
+                            }
+    
+                            p {
+                                color: $color5;
+    
+                            }
+    
+                            &:hover {
+                                background-color: $color5;
+    
+                                p {
+                                    color: $color2;
+                                }
+    
+                                h2 {
+                                    color: $color3;
+                                }
+                            }
+                        }
+    
+    
+                        h2 {
+                            font-family: 'Montserrat';
+                            font-style: normal;
+                            font-weight: 600;
+                            font-size: 21px;
+                            line-height: 26px;
+                            text-align: center;
+                            color: $color3;
+    
+                        }
+    
+                        hr {
+                            width: 75px;
+                            height: 2px;
+                            display: block;
+                            margin: auto;
+                            background-color: $color3;
+                        }
+    
+                        p {
+                            font-family: 'Montserrat';
+                            font-style: normal;
+                            font-weight: 500;
+                            font-size: 16px;
+                            line-height: 22px;
+                            text-align: center;
+                            margin-top: 15px;
+    
+                            width: 100%;
+                            padding: 0;
+    
+                        }
+                    }
+                }
+            }
+        }
+}
